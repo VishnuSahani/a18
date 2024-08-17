@@ -7,10 +7,12 @@
 }
 
 mat-sidenav{
-    background-color: var(--color-light-blue);
+    background-color: var(--color-blue);
     color:#fff;
-    border-color: #fff;
+    // border-color: #fff;
     width: 200px;
+    border-radius: 0;
+    border-right: 1px solid #fff;
 }
 
 mat-sidenav-container{

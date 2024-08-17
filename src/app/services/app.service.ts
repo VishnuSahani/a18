@@ -7,5 +7,5 @@ export class AppService {
 
   constructor() { }
 
-  sideBarStatus = signal<boolean>(false);
+  sideBarStatus = signal<boolean>(true);
 }

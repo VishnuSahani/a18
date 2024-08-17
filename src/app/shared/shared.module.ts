@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import{MatSidenavModule} from '@angular/material/sidenav';
+import{MatIconModule} from '@angular/material/icon';
 
 const componentList = [
   LandingPageComponent,
@@ -17,7 +18,8 @@ const componentList = [
 ];
 
 const materialImport = [
-    MatSidenavModule
+    MatSidenavModule,
+    MatIconModule
 ];
 
 @NgModule({

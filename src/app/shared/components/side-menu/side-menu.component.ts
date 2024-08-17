@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './side-menu.component.scss'
 })
 export class SideMenuComponent {
+  
+  sideMenuList:any = [
+    {name:"Dashboard" , routing:"home", icon:"home"},
+    {name:"Add Member" , routing:"home/add-member",icon:"add"},
+    {name:"View Member" , routing:"view-member",icon:"account_circle"},
+    {name:"Message" , routing:"message",icon:"message"},
+  ]
+  constructor(){}
+
 
 }

@@ -19,7 +19,8 @@ export const routes: Routes = [
             {
                 path:"home",
                 loadChildren: ()=> import('./home/home.module').then((h)=>h.HomeModule)
-            }
+            },
+            { path: '**', component: PageNotFoundComponent }, // Catch-all for unmatched routes
         ]
     },
     { path: '**', component: PageNotFoundComponent }, // Catch-all for unmatched routes
